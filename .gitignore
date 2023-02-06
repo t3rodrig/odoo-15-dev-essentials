@@ -1,0 +1,11 @@
+# dotfiles, with exceptions:
+.*
+!.gitignore
+!.dockerignore
+
+# python compiled files
+__pycache__/
+*.py[co]
+
+# not tracked subdirectories
+venv/
