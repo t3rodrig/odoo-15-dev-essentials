@@ -10,6 +10,7 @@
     'data': [
         "security/library_security.xml",
         "security/ir.model.access.csv",
+        "views/book_view.xml",
         "views/libray_menu.xml",
     ],
     'application': True,
