@@ -12,6 +12,7 @@
         "security/ir.model.access.csv",
         "views/book_view.xml",
         "views/libray_menu.xml",
+        "views/book_list_template.xml",
     ],
     'application': True,
 }
