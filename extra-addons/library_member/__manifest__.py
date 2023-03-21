@@ -6,11 +6,13 @@
     # 'category': 'Uncategorized',
     # 'version': '0.1',
     # any module necessary for this one to work correctly
-    'depends': ['library_app'],
+    'depends': ['library_app', 'mail'],
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/book_view.xml',
+        'views/member_view.xml',
+        'views/library_menu.xml',
         'views/templates.xml',
     ],
     'application': False,
