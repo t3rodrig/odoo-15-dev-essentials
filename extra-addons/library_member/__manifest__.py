@@ -9,11 +9,12 @@
     'depends': ['library_app', 'mail'],
     # always loaded
     'data': [
+        'security/library_security.xml',
         'security/ir.model.access.csv',
         'views/book_view.xml',
         'views/member_view.xml',
         'views/library_menu.xml',
-        'views/templates.xml',
+        'views/book_list_template.xml',
     ],
     'application': False,
 }
